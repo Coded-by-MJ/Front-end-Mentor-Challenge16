@@ -17,12 +17,12 @@ const ModalLists = ({name, price, qtyBought, image}) => {
              <span className="inline-block text-md font-bold text-rose-900">{name}</span>
               <div className="flex gap-3 w-full">
               <span className="inline-block font-medium text-md text-red-500">{qtyBought}x</span> 
-              <span className="inline-block text-md text-rose-400 ">@ ${price.toFixed(2).padEnd(3, "0")}</span> 
+              <span className="inline-block text-md text-rose-400 ">@ ${price.toFixed(2)}</span> 
              </div>
             </div>
         </div>
          <span className="inline-block text-md text-rose-900 font-medium">
-           ${qtyPriceTotal.toFixed(2).padEnd(3, 0)}
+           ${qtyPriceTotal.toFixed(2)}
          </span>
     </div>
   )

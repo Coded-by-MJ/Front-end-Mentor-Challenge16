@@ -115,7 +115,7 @@ const Card = ({id, qtyBought, image, name, category, price, inCart}) => {
                {name}
             </span> 
             <span className="text-md inline-block text-red-500 font-medium">
-               ${price.toFixed(2).padEnd(3, "0")}
+               ${price.toFixed(2)}
             </span>
         </div>
 

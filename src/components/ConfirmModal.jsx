@@ -70,7 +70,7 @@ const ConfirmModal = ({ handleShowModal }) => {
 
                 <div className="flex justify-between items-center">
                     <span className="inline-block text-sm text-rose-900">Order Total</span>
-                    <span className="inline-block text-2xl font-bold text-rose-900">${total.toFixed(2).padEnd(3, "0")}</span>
+                    <span className="inline-block text-2xl font-bold text-rose-900">${total.toFixed(2)}</span>
                 </div>
              </div>
 
