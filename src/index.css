@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .grid-auto-fill {
+        grid-template-columns: repeat(auto-fill, 350px);
+      }
+
+     @media screen and (min-width: 768px){
+       .grid-auto-fill{
+        grid-template-columns: repeat(auto-fill, 330px);
+       }
+     }
+
+ }
